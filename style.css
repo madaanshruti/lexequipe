@@ -1,0 +1,266 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* #navbar{
+    border-bottom: 1px solid #063364;
+} */
+#dropdown {
+    display: none;
+    position: absolute;
+    width: 300px;
+    background-color: white;
+}
+
+#drop:hover #dropdown {
+    display: block;
+    border-top: 3px solid #e6a44c;
+
+}
+
+#drop {
+    position: relative;
+    margin-left: 50px;
+}
+
+#dropdown li {
+    border-bottom: 1px solid rgb(208, 203, 203);
+}
+
+.banner {
+    background-image: url(./assets/images/banner/h1_hero.jpg);
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top1 {
+    color: #063364;
+    ;
+    font-size: 40px;
+}
+
+.btn {
+    background-color: #e6a44c;
+    padding: 10px;
+    letter-spacing: 1px;
+    width: 190px;
+}
+
+.btn:hover {
+    background-color: #de8c21;
+}
+
+.top1:hover {
+    color: #e6a44c;
+}
+
+.rotate {
+    width: 260px;
+    margin-top: 60px;
+    animation: 15s linear infinite ani;
+
+}
+
+@keyframes ani {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#star a:hover {
+    color: #e6a44c;
+}
+
+.dark {
+    color: black;
+}
+
+.dark:hover {
+    color: #de8c21;
+}
+
+#coust .slideto {
+    position: relative;
+}
+
+#coust .slideto:hover .slide {
+    left: 0px;
+    bottom: 0;
+    opacity: 1;
+    visibility: visible;
+    width: 60%;
+    right: -15%;
+    transition: 0.8s;
+    transform: translateX(10px);
+}
+
+#coust .slide {
+    position: absolute;
+    background-color: white;
+    color: black;
+    height: 500px;
+    visibility: hidden;
+}
+
+.H0 {
+    padding-top: 30px;
+    letter-spacing: 3px;
+}
+
+.mehta {
+    color: black;
+    text-decoration: none;
+}
+
+h4 {
+    margin-top: 20px;
+}
+
+#star {
+    color: #de8c21;
+    float: right;
+    font-size: 20px;
+}
+
+.btn1 {
+    width: 300px;
+    height: 70px;
+    padding: 10px;
+    background-color: #e6a44c;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn1:hover {
+    background-color: #b77724;
+}
+
+#fname {
+    padding: 15px;
+    width: 280px;
+    background-color: rgb(13, 13, 84);
+    color: aliceblue;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+#email {
+    padding: 15px;
+    width: 280px;
+    margin-top: 20px;
+    background-color: rgb(13, 13, 84);
+    color: aliceblue;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+#phone {
+    padding: 15px;
+    width: 50%;
+    background-color: rgb(13, 13, 84);
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+
+}
+
+#but {
+    padding: 15px;
+    width: 150px;
+    margin-top: 20px;
+    background-color: #b77724;
+    color: aliceblue;
+    border-radius: 5px;
+    border: none;
+
+}
+
+.li1 {
+    list-style: none;
+    padding: 5px;
+    font-size: 1.5rem;
+}
+
+.li2 {
+    list-style: none;
+    padding: 3px;
+    font-size: 2rem;
+    color: #063364;
+}
+
+#para {
+    text-align: center;
+    border-top: 1px solid lightgray;
+    padding: 30px;
+}
+
+.s2 {
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+    color: black;
+}
+.dl{
+    list-style: none;
+    font-size: 2rem;
+}
+.cl{
+    list-style: none;
+    padding: 3px;
+}
+.cl:hover{
+    color: #b77724;
+    transition: 0.4s;
+    transform: translateX(10px);
+}
+#sp:hover{
+    background-color: #b77724;
+}
+#lex{
+    margin-top: 50px;
+}
+#num{
+    height: 450px;
+}
+
+@media screen and (max-width:768px) {
+    #drop:hover #dropdown {
+        display: none;
+
+
+    }
+    #form{
+        margin-top: 10px;
+    }
+    #header{
+        display: none;
+    }
+    #lex{
+        margin-top: 150px;
+    }
+    #fname{
+        width: 100%;
+    }
+    #email{
+        width: 100%;
+    }
+    #phone{
+        width: 100%;
+    }
+    #but{
+        width: 100%;
+    }
+    #num{
+        height: auto;
+    }
+}
